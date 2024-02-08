@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cb9f136.css",
-    "main.js": "/static/js/main.987607e5.js",
-    "static/js/787.307c8e49.chunk.js": "/static/js/787.307c8e49.chunk.js",
-    "index.html": "/index.html",
-    "main.5cb9f136.css.map": "/static/css/main.5cb9f136.css.map",
-    "main.987607e5.js.map": "/static/js/main.987607e5.js.map",
-    "787.307c8e49.chunk.js.map": "/static/js/787.307c8e49.chunk.js.map"
+    "main.css": "/for-my-love/static/css/main.5cb9f136.css",
+    "main.js": "/for-my-love/static/js/main.745c0168.js",
+    "static/js/787.307c8e49.chunk.js": "/for-my-love/static/js/787.307c8e49.chunk.js",
+    "index.html": "/for-my-love/index.html",
+    "main.5cb9f136.css.map": "/for-my-love/static/css/main.5cb9f136.css.map",
+    "main.745c0168.js.map": "/for-my-love/static/js/main.745c0168.js.map",
+    "787.307c8e49.chunk.js.map": "/for-my-love/static/js/787.307c8e49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cb9f136.css",
-    "static/js/main.987607e5.js"
+    "static/js/main.745c0168.js"
   ]
 }
