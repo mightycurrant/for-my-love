@@ -51,8 +51,8 @@ const Landing = () => {
       <>
         <p id="text-main">CZY ZOSTANIESZ MOJĄ WALENTYNKĄ? &#128563;&#128073;&#128072;</p>
         <img id="question-gif" src={process.env.PUBLIC_URL + '/q.gif'} alt="First GIF" />
-        <button id="other-btn" onClick={handleButtonClick}>Tak &#129392;</button>
-        <button id="runaway-btn">Nie &#128557;</button>
+        <button id="other-btn" onClick={handleButtonClick}>TAK &#129392;</button>
+        <button id="runaway-btn">NIE &#128557;</button>
     </>
   )}
   </>
