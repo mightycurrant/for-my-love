@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #ffbfbf;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root div{
+  width: 100%;
+  height: 100vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root {
+  position: relative;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#runaway-btn {
+  position: fixed;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#other-btn {
+  position: fixed;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  cursor: pointer;
+}
+
+img {
+  position: fixed;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text-main{
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: #ff0000;
+  text-align: center;
+}
+
+
+@media (max-width: 800px) {
+  #text-main{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    font-size: 1.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  img {
+    width: 45%;
+  }
+
+  #runaway-btn{
+    width: 30%;
+    position: fixed;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #other-btn {
+    width: 30%;
+    position: fixed;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-height: 800px) {
+  #text-main{
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    font-size: 1.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 35%;
+  }
+
+  #runaway-btn{
+    height: 15%;
+    width: 20%;
+    position: fixed;
+    top: 85%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+  }
+
+  #other-btn {
+    height: 15%;
+    width: 20%;
+    position: fixed;
+    top: 85%;
+    left: 38%;
+    transform: translate(-50%, -50%);
   }
 }
